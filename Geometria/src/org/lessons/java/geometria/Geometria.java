@@ -26,14 +26,15 @@ public class Geometria {
 
 		Scanner input = new Scanner(System.in);
 		
-		System.out.println("inserici la base del rettangolo");
+		System.out.print("Base : ");
 		int base = input.nextInt();
-		System.out.println("inserici la altezza del rettangolo");
+		System.out.print("Altezza: ");
 		int altezza = input.nextInt();
 		
 		System.out.println("Perimetro : " + (base + altezza)*2);
-		System.out.println("Area: " + base * altezza);
-		
+		System.out.print("Area: " + base * altezza);
+
+		 
 		
 	}
 
